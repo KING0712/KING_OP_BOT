@@ -28,5 +28,4 @@
 
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/KING0712/KING_OP_BOT"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
 ━━━━━━━━━━━━━━━━━━━━
-### 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗠𝗘 :
-<a href="https://t.me/l_MR_ll_KING_l"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+
