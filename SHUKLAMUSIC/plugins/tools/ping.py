@@ -7,7 +7,7 @@ from SHUKLAMUSIC.core.call import SHUKLA
 from SHUKLAMUSIC.utils import bot_sys_stats
 from SHUKLAMUSIC.utils.decorators.language import language
 from SHUKLAMUSIC.utils.inline import supp_markup
-from config import BANNED_USERS, PING_IMG_URL
+from config import BANNED_USERS, PING_IMG_URLhttps://telegra.ph/file/87b037b731c15c9191918.png
 import aiohttp
 import asyncio
 from io import BytesIO
@@ -27,10 +27,10 @@ async def make_carbon(code):
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://telegra.ph/file/7bb907999ea7156227283.jpg"
+    PING_IMG_URL = "https://telegra.ph/file/87b037b731c15c9191918.png"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
-    await asyncio.sleep(1)
+    await asyncio.sleep(1)https://telegra.ph/file/87b037b731c15c9191918.png"
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ...**")
     await asyncio.sleep(1)
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**")
@@ -50,7 +50,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 𝐌𝐑... 𝐊𝐈𝐍𝐆...ʙᴀʙʏ💞**"
+    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 𝐌𝐑... BADNAM...ʙᴀʙʏ💞**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -63,10 +63,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/+uF_GVlNuJ_dkZGVl",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=https://t.me/Friends_x_zone",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/l_ABOUT_l_KING_l",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/Hindu_Nagri23l",
             )
         ],
         [
